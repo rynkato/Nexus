@@ -1,0 +1,56 @@
+<svg id="Players_Video" data-name="Players/Video" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="570" height="570" viewBox="0 0 570 570">
+  <defs>
+    <clipPath>
+      <rect width="570" height="570" rx="12" fill="#97c3ff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Background-2" data-name="Background" width="570" height="570" fill="#ecf1f8"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1 1">
+      <image width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAAD5Ip3+AAAADUlEQVQIHWP4//8/AwAI/AL+5gz/qwAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="Group_4" data-name="Group 4">
+    <rect id="Background-3" data-name="Background" width="570" height="570" rx="12" fill="#97c3ff"/>
+    <g id="Mask_Group_4" data-name="Mask Group 4" clip-path="url(#clip-path)">
+      <g id="Image">
+        <rect id="Elevation" width="570" height="570" fill="none"/>
+        <g id="Group_7" data-name="Group 7">
+          <rect id="Background-4" data-name="Background" width="570" height="570" fill="#212121"/>
+          <g id="Mask_Group_7" data-name="Mask Group 7" clip-path="url(#clip-path-2)">
+            <rect id="Image-2" data-name="Image" width="570" height="570" fill="url(#pattern)"/>
+            <rect id="Gradient" width="570" height="224.96" transform="translate(0 345.04)" fill="none"/>
+            <rect id="Overlay" width="570" height="570" fill="rgba(216,216,216,0)"/>
+          </g>
+        </g>
+      </g>
+      <g id="Control" transform="translate(0 496)">
+        <rect id="Background-5" data-name="Background" width="570.594" height="74" rx="2" fill="#121212" opacity="0.08"/>
+        <g id="Right_Icons" data-name="Right Icons" transform="translate(386.594 24)">
+          <g id="Icon_Edit" data-name="Icon/Edit" transform="translate(128)">
+            <path data-name="Icon Color" d="M13.633,24H10.18a1.675,1.675,0,0,1-1.65-1.421L8.2,20.337A9.332,9.332,0,0,1,6.25,19.245l-2.3.886a1.663,1.663,0,0,1-.6.112,1.68,1.68,0,0,1-1.429-.8L.241,16.668a1.655,1.655,0,0,1,.426-2.186l1.873-1.4A8.517,8.517,0,0,1,2.464,12a8.091,8.091,0,0,1,.075-1.062L.666,9.535A1.655,1.655,0,0,1,.241,7.349L1.917,4.577a1.672,1.672,0,0,1,2.029-.692l2.3.887A9.742,9.742,0,0,1,8.2,3.681l.332-2.26A1.675,1.675,0,0,1,10.184,0h3.451a1.675,1.675,0,0,1,1.65,1.421l.329,2.242a9.327,9.327,0,0,1,1.951,1.092l2.3-.886a1.67,1.67,0,0,1,2.029.692l1.677,2.771a1.653,1.653,0,0,1-.426,2.186l-1.873,1.4A8.539,8.539,0,0,1,21.352,12a8.1,8.1,0,0,1-.075,1.063l1.872,1.4a1.664,1.664,0,0,1,.664,1.372l.188.109,0,.007-.184-.112-.127-.078-1.268-.777-.019.031,1.284.758-.324-.2.327.189.127.078v.011l.18.106,0,.007-.176-.11-.13-.081.13.081a1.661,1.661,0,0,1-.238.794L21.9,19.422a1.67,1.67,0,0,1-2.029.692l-2.3-.887a9.752,9.752,0,0,1-1.951,1.092l-.333,2.26A1.674,1.674,0,0,1,13.633,24ZM6.538,17.156h0l.745.554a7.447,7.447,0,0,0,1.7.952l.893.357.077.526.061.418.321,2.19h3.132l.462-3.141.881-.362a7.847,7.847,0,0,0,1.717-.958l.746-.554.477.184.392.15,2.245.864,1.51-2.5-2.613-1.957.139-.968A6.523,6.523,0,0,0,19.5,12a6.808,6.808,0,0,0-.074-.941l-.131-.962.435-.326.347-.26L21.9,8.142l-1.51-2.5-3.113,1.2-.746-.554a7.486,7.486,0,0,0-1.7-.953l-.893-.357-.077-.525L13.8,4.036l-.321-2.19H10.344L9.881,4.988,9,5.349a7.914,7.914,0,0,0-1.717.959l-.745.554L6.06,6.678l-.391-.151L3.424,5.664l-1.51,2.5,2.613,1.957-.139.968A6.529,6.529,0,0,0,4.317,12a6.947,6.947,0,0,0,.073.942l.131.962-.435.326-.347.26L1.914,15.857l1.51,2.5,3.113-1.2Zm5.37-1.279A3.877,3.877,0,1,1,15.839,12,3.909,3.909,0,0,1,11.908,15.877Zm0-5.908A2.031,2.031,0,1,0,13.987,12,2.057,2.057,0,0,0,11.908,9.969Z" transform="translate(-0.001 0)" fill="#fff"/>
+          </g>
+          <g id="Icon_Edit-2" data-name="Icon/Edit" transform="translate(80)">
+            <path data-name="Icon Color" d="M.075,16.65l3.9-3.9L5.025,13.8l-2.1,2.1H19.5a2.865,2.865,0,0,0,3-2.625V9.525H24v3.75A4.325,4.325,0,0,1,19.5,17.4H2.925l2.1,2.1L3.975,20.55ZM0,11.025V7.275A4.325,4.325,0,0,1,4.5,3.15H21.075l-2.1-2.1L20.025,0l3.9,3.9-3.9,3.9-1.05-1.05,2.1-2.1H4.5a2.865,2.865,0,0,0-3,2.624v3.75Z" transform="translate(0 2.225)" fill="#fff"/>
+          </g>
+          <g id="Icon_Edit-3" data-name="Icon/Edit" transform="translate(30)">
+            <path id="Icon_Color-3" data-name="Icon Color" d="M13.135,22a.652.652,0,0,1-.205-.036.716.716,0,0,1-.205-.111L5,15.69H2.439a2.461,2.461,0,0,1-1.69-.624,1.953,1.953,0,0,1-.7-1.5L0,8.4A1.916,1.916,0,0,1,.7,6.91,2.493,2.493,0,0,1,2.39,6.3H4.95L12.724.136A.712.712,0,0,1,13.11,0l.051,0A.661.661,0,0,1,13.5.087a.718.718,0,0,1,.3.281.785.785,0,0,1,.109.4V21.217a.785.785,0,0,1-.109.4.726.726,0,0,1-.3.282.546.546,0,0,1-.169.073A.788.788,0,0,1,13.135,22ZM2.39,7.864a1.01,1.01,0,0,0-.616.171.474.474,0,0,0-.229.367l.049,5.16a.507.507,0,0,0,.229.38.964.964,0,0,0,.616.183h2.8a1.043,1.043,0,0,1,.229.025.527.527,0,0,1,.205.1l6.689,5.5V2.239L5.626,7.717a.735.735,0,0,1-.205.11.725.725,0,0,1-.229.037ZM18.833,18.356a.744.744,0,0,1-.435-.135.832.832,0,0,1-.29-.355.768.768,0,0,1,.012-.611.7.7,0,0,1,.446-.392,6.2,6.2,0,0,0,3.888-5.723A6.081,6.081,0,0,0,21.38,7.656a5.876,5.876,0,0,0-2.813-2.237A.788.788,0,0,1,18.121,5a.717.717,0,0,1-.012-.588.694.694,0,0,1,.4-.452.767.767,0,0,1,.313-.071.72.72,0,0,1,.279.058,7.176,7.176,0,0,1,2,1.138,7.942,7.942,0,0,1,1.545,1.663,7.582,7.582,0,0,1,1,2.066,7.8,7.8,0,0,1,0,4.622,7.608,7.608,0,0,1-1,2.066A7.987,7.987,0,0,1,21.1,17.17a7.2,7.2,0,0,1-2,1.137,1.122,1.122,0,0,1-.133.037A.677.677,0,0,1,18.833,18.356Zm-2.2-3.057a.733.733,0,0,1-.482-.184.751.751,0,0,1-.266-.453A.723.723,0,0,1,16,14.076a.8.8,0,0,1,.495-.342,2.411,2.411,0,0,0,1.5-.917,2.677,2.677,0,0,0,.579-1.676A2.767,2.767,0,0,0,18,9.4a2.27,2.27,0,0,0-1.485-.88.71.71,0,0,1-.5-.319.8.8,0,0,1-.132-.587.768.768,0,0,1,.3-.513.663.663,0,0,1,.413-.143.831.831,0,0,1,.178.02A3.8,3.8,0,0,1,19.171,8.4a4.263,4.263,0,0,1,.941,2.739,4.16,4.16,0,0,1-.941,2.666,4.018,4.018,0,0,1-2.39,1.468.2.2,0,0,0-.06.012A.268.268,0,0,1,16.636,15.3Z" transform="translate(0 1)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Progress" transform="translate(80 28)">
+          <text id="Timestamp" transform="translate(268.594)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">03:21</tspan></text>
+          <rect id="Background-6" data-name="Background" width="238.587" height="8" rx="4" transform="translate(0 5)" fill="#fff"/>
+          <rect id="Progress_Fill" data-name="Progress Fill" width="133.703" height="8" rx="4" transform="translate(0 5)" fill="#006eff"/>
+        </g>
+        <g id="Icon_Media_Pause" data-name="Icon/Media/Pause" transform="translate(40 25)">
+          <path data-name="Combined Shape" d="M11,22.5V1.5a1.5,1.5,0,1,1,3,0v21a1.5,1.5,0,1,1-3,0Zm-11,0V1.5a1.5,1.5,0,1,1,3,0v21a1.5,1.5,0,1,1-3,0Z" transform="translate(5)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Play_Icon" data-name="Play Icon" transform="translate(225 195)">
+        <g id="Icon_Media_Play_Fill" data-name="Icon/Media/Play Fill">
+          <path id="Icon_Color-4" data-name="Icon Color" d="M7.5,120A7.522,7.522,0,0,1,0,112.5V7.5A7.522,7.522,0,0,1,7.5,0,7.629,7.629,0,0,1,12,1.5L77.063,54a7.133,7.133,0,0,1,2.813,6,7.548,7.548,0,0,1-3,6L12,118.5A7.629,7.629,0,0,1,7.5,120Z" transform="translate(20)" fill="#006eff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

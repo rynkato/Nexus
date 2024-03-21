@@ -1,0 +1,574 @@
+@charset "utf-8";
+@import "fabrx-variables";
+
+/*
+  1. Fabrx Components CSS
+     1. 1. Fabrx Colors CSS
+        1. 1. 1. Fabrx Selection Color CSS
+        1. 1. 2. Fabrx Default Colors CSS
+        1. 1. 3. Fabrx Default Hover Colors CSS
+        1. 1. 4. Fabrx Default Backgrounds CSS
+        1. 1. 5. Fabrx Default Borders CSS
+        1. 1. 6. Fabrx Default SVG Fill Colors CSS
+        1. 1. 7. Fabrx Inputs CSS
+     1. 2. Fabrx Box Shadow CSS
+     1. 3. Fabrx Alert CSS
+     1. 4. Fabrx Buttons CSS
+     1. 5. Fabrx Dropdown CSS
+     1. 6. Fabrx Uploader CSS
+  2. Fabrx Layouts Pages CSS
+     2. 1. Fabrx Dark Aside CSS
+     2. 2. Fabrx Masonry CSS
+     2. 3. Fabrx Nav Tabs line CSS
+     2. 4. Fabrx Forms CSS
+        2. 4. 1. Fabrx Custom Control CSS
+     2. 5. Fabrx Pagination CSS
+        2. 5. 1. Fabrx Custom Pagination CSS
+*/
+/* 1. 1. 1. Fabrx Selection Color CSS */
+::selection, ::-webkit-selection, ::-moz-selection, ::-o-selection, ::-ms-selection {
+  background: $dark;
+  color: $white;
+}
+
+select option {
+  border: none;
+  outline: none;
+}
+/* 1. 1. 2. Fabrx Default Colors CSS */
+body, a, p, .alert-light, .list-group-item-action, .badge-light, .breadcrumb-item + .breadcrumb-item:before, .badge-outline-dark, .btn-outline-dark, .btn-light, span.flatpickr-weekday, .fileuploader-input .fileuploader-input-caption, .fileuploader-items .fileuploader-item .column-title div {
+  color: $white;
+}
+.nav-tags-stack {
+  .nav-link.active p, .nav-item.show .nav-link p {
+    color: $white;
+  }
+}
+.pagination-default .page-link {
+  color: $white;
+}
+.menu-category li {
+  a:hover, &.active a {
+    color: $white;
+  }
+}
+.fabrx-aside-four .menu-category > li {
+  > a, &.active > a {
+    color: $white;
+  }
+}
+.fabrx-header-links .avatar-user, .fabrx-item-list li, .fabrx-caption p, .hero-caption p, .item-boxes .nav-link p, .nav-tabs.nav-tabs-children .nav-tabs .nav-link, .list-group-item, .btn-group .btn-light, .dark-layout .card .clearfix .card-subtitle {
+  color: $white;
+}
+.flatpickr-day {
+  color: $white;
+  &.selected:hover {
+    color: $white;
+  }
+}
+.flatpickr-current-month, .dropdown-item, .dropdown-menu, .nav-tabs.nav-tabs-line .nav-link, .pagination .page-item.active .page-link {
+  color: $white;
+}
+.fabrx-tables-light {
+  table tbody tr td, .pagination .page-link, .btn-outline-primary {
+    color: $white;
+  }
+}
+.pagination .page-link, .page-link.primary-page-item, .fabrix-custom-pagination .form-control, .pagination-default .page-link {
+  color: $white;
+}
+.form-control {
+  color: $white;
+  &:focus {
+    color: $white;
+  }
+}
+.fabrx-media-links li a, .fabrx-alert p {
+  color: $secondary;
+}
+.flatpickr-day {
+  &.disabled {
+    color: $secondary;
+    &:hover {
+      color: $secondary;
+    }
+  }
+  &.prevMonthDay, &.nextMonthDay {
+    color: $secondary;
+  }
+  &.notAllowed {
+    color: $secondary;
+    &.prevMonthDay, &.nextMonthDay {
+      color: $secondary;
+    }
+  }
+}
+.custom-control-input {
+  &:disabled ~ .custom-control-label, &[disabled] ~ .custom-control-label {
+    color: $secondary;
+  }
+}
+.fileuploader-items .fileuploader-item {
+  .fileuploader-action i, .column-title span {
+    color: $secondary;
+  }
+}
+.nav-tags-stack .nav-link p, .fabrx-footer-menu li a, .fabrx-aside-footer a, .fabrx-footer-contnet p, .avatar-user, .card-subtitle, .nav-tabs .nav-link, .progress-title, .table td {
+  color: $secondary;
+}
+.badge-dark, .fabrx-avatar.more .avatar-wrap, .dark-layout .card-img-overlay .overlay-wrap .card-title, .btn-dark {
+  color: $dark;
+}
+.flatpickr-day {
+  &.today, &.inRange, &:hover {
+    color: $dark;
+  }
+}
+.dark-layout .card-img-overlay .overlay-wrap .text-dark {
+  color: $dark !important;
+}
+.text-dark, .text-muted {
+  color: $white !important;
+}
+.text-primary {
+  color: $primary !important;
+}
+a.text-dark {
+  &:focus, &:hover {
+    color: $primary !important;
+  }
+}
+.text-danger {
+  color: $danger !important;
+}
+.text-success {
+  color: $success !important;
+}
+.text-warning {
+  color: $warning !important;
+}
+.bg-white, .fabrx-footer, .fabrx-aside, .fabrx-stack-box .card {
+  background-color: $dark-100 !important;
+}
+/* 1. 1. 3. Fabrx Default Hover Colors CSS */
+a {
+  &:hover, &:focus {
+    color: $primary;
+  }
+}
+.badge-outline-primary, .btn-outline-primary, .fabrx-outline-primary, .btn-link {
+  color: $primary;
+}
+.breadcrumb-item.active {
+  color: $primary;
+  a {
+    color: $primary;
+  }
+}
+.btn-group-vertical .btn-light, .circle-counter, .fabrx-media-links li a:hover, .fileuploader-input .fileuploader-input-button {
+  color: $primary;
+}
+.fileuploader-popup .fileuploader-popup-content .fileuploader-popup-button {
+  color: $primary;
+  &.button-success {
+    color: $primary;
+  }
+}
+.nav-tabs {
+  &.nav-tabs-lie .nav-item.show .nav-link, &.nav-tabs-line .nav-link.active {
+    color: $primary;
+  }
+}
+.fabrx-lines svg {
+  color: $primary;
+}
+.fabrx-aside-four {
+  .menu-category > li > a:hover, .fabrx-aside-footer a:hover {
+    color: $primary;
+  }
+}
+.fabrx-header-links .avatar-user:hover, .fabrx-footer-menu li a:hover, .fabrx-like.active, .nav-tabs.nav-tabs-children .nav-tabs .nav-link:hover, .alert-light .list-group-item:hover {
+  color: $primary;
+}
+/* 1. 1. 4. Fabrx Default Backgrounds CSS */
+body {
+  background: $black-800;
+}
+.bg-dark, .badge-dark, .fabrx-lft-dash:before, .btn-dark {
+  background-color: $white;
+}
+.menu-category li {
+  > a:hover, &.active > a {
+    background-color: $dark;
+  }
+  a.mPS2id-clicked {
+      background-color: $dark;
+    }
+}
+.fabrx-aside-two .menu-category > li {
+  > a:hover, &.active > a {
+    background-color: $dark;
+  }
+}
+.fabrx-tables-light table thead th {
+  background-color: $dark;
+}
+.btn-primary {
+  background-color: $primary;
+}
+.fabrx-avatar {
+  &.more:hover .avatar-wrap, .avatar-wrap {
+    background-color: $primary;
+  }
+}
+.breadcrumb-item {
+  a:after, &.active span:after {
+    background-color: $primary;
+  }
+}
+.dropdown-item {
+  &.active, &:active {
+    background-color: $primary;
+  }
+}
+.custom-control-input:checked ~ .custom-control-label:before {
+  background-color: $primary;
+}
+.daterangepicker td.active {
+  background-color: $primary;
+  &:hover {
+    background-color: $primary;
+  }
+}
+.flatpickr-day {
+  &.startRange {
+    &:before, &:hover:before, &:focus:before {
+      background-color: $primary;
+    }
+  }
+  &.endRange:before {
+    background-color: $primary;
+  }
+  &.selected {
+    &.startRange:focus:before, &.endRange:focus:before {
+      background-color: $primary;
+    }
+  }
+  &.startRange:focus:before, &.endRange:focus:before, &.startRange:hover:before, &.endRange:hover:before, &.selected.prevMonthDay:before, &.startRange.prevMonthDay:before, &.endRange.prevMonthDay:before, &.selected.nextMonthDay:before, &.startRange.nextMonthDay:before, &.endRange.nextMonthDay:before {
+    background-color: $primary;
+  }
+}
+.custom-switch .custom-control-label:after, .fabrx-page-controls .page-control.active {
+  background-color: $primary;
+}
+.nav-tabs {
+  .nav-item.show .nav-link, .nav-link.active {
+    background-color: $primary;
+  }
+}
+.pagination .page-item.active .page-link {
+  background-color: $primary;
+}
+.addui-slider .addui-slider-track {
+  .addui-slider-range, .addui-slider-handle:after {
+    background-color: $primary;
+  }
+}
+.fabrx-pipe {
+  background-color: $primary;
+}
+.flatpickr-day {
+  &.selected {
+    &:before, &:focus:before, &:hover:before {
+      background-color: $primary;
+    }
+  }
+  &.today.selected {
+    &:before, &:hover:before, &:focus:before {
+      background-color: $primary;
+    }
+  }
+  &.endRange.nextMonthDay.inRange.selected {
+    &:before, &:hover:before, &:focus:before {
+      background-color: $primary;
+    }
+  }
+  &.prevMonthDay.endRange {
+    &:hover:before, &:focus:before {
+      background-color: $primary;
+    }
+  }
+  &.nextMonthDay.endRange {
+    &:hover:before, &:focus:before {
+      background-color: $primary;
+    }
+  }
+  &.prevMonthDay.startRange {
+    &:hover:before, &:focus:before {
+      background-color: $primary;
+    }
+  }
+  &.nextMonthDay {
+    &.startRange {
+      &:hover:before, &:focus:before, &:before {
+        background-color: $primary;
+      }
+    }
+    &.selected.startRange.inRange:before {
+      background-color: $primary;
+    }
+  }
+  &.selected.startRange + .flatpickr-day.endRange:before {
+    background-color: $primary;
+  }
+}
+.fabrx-volting a:hover, .page-link.primary-page-item:hover {
+  background-color: $primary;
+}
+.bg-primary, .badge-primary, .control-has-primary .custom-control-label:before {
+  background-color: $primary !important;
+}
+.bg-secondary, .badge-secondary, .control-has-secondary .custom-control-label:before {
+  background-color: $secondary !important;
+}
+.bg-light, .badge-light, .control-has-light .custom-control-label:before {
+  background-color: $black-800 !important;
+}
+.bg-dark-light {
+  background-color: $dark-light !important;
+}
+.bg-black-900 {
+  background-color: $black-900 !important;
+}
+.bg-dark-trans-8 {
+  background-color: rgba($black, 0.08) !important;
+}
+/* 1. 1. 5. Fabrx Default Borders CSS */
+.btn-dark {
+  border-color: $white;
+}
+.badge-outline-dark, .btn-outline-dark, .fabrx-outline-dark, .fabrx-lines li, .border-bottom, .testimonial-author, hr, .border-left, .dropdown-menu-divider .dropdown-item, .dropdown-divider {
+  border-color: $dark !important;
+}
+.fabrx-alert-stack {
+  .alert-actions, .list-group-item {
+    border-color: $dark !important;
+  }
+}
+.fabrx-tables-light table tbody tr td {
+  border-color: $dark !important;
+}
+.badge-outline-primary, .btn-outline-primary, .fabrx-outline-primary, .btn-primary, .custom-control-input:checked ~ .custom-control-label:before, .fabrx-checks li:before, .owl-carousel .owl-nav button:before {
+  border-color: $primary;
+}
+.menu-category li {
+  > a:hover, &.active > a {
+    border-color: $primary;
+  }
+  a.mPS2id-clicked {
+    border-color: $primary;
+  }
+}
+.fabrx-aside-two .menu-category > li {
+  > a:hover, &.active > a {
+    border-color: $primary;
+  }
+}
+.fileuploader-items .fileuploader-item .fileuploader-action i, .border {
+  border-color: $secondary;
+}
+.table {
+  td, thead th {
+    border-color: $secondary;
+  }
+}
+.form-control:focus {
+  border-color: $white;
+}
+.border {
+  border-color: $secondary !important;
+}
+/* 1. 1. 6. Fabrx Default SVG Fill Colors CSS */
+.btn {
+  &.btn-outline-light svg, &.btn-outline-dark svg {
+    fill: $dark;
+    * {
+      fill: $dark;
+    }
+  }
+}
+.pagination-default .page-link svg, .fabrx-header-links a svg {
+  fill: $dark;
+  * {
+    fill: $dark;
+  }
+}
+.badge-light svg, .fabrx-menu-category svg, .fabrx-header-links a svg, .navbar-toggler svg, .fabrx-item-list li svg, .nav-tags-stack .fabrx-icon svg, .btn.btn-light svg, .card-header .btn svg {
+  fill: $white;
+  * {
+    fill: $white;
+  }
+}
+.flatpickr-months {
+  .flatpickr-prev-month, .flatpickr-next-month {
+    fill: $white;
+  }
+}
+.dropdown-menu .dropdown-item svg {
+  fill: $white;
+  * {
+    fill: $white;
+  }
+}
+.fabrx-tables-light {
+  .btn-outline-primary {
+    svg, &:focus svg {
+      fill: $white;
+      * {
+        fill: $white;
+      }
+    }
+  }
+  .pagination-default .page-link svg {
+    fill: $white;
+    * {
+      fill: $white;
+    }
+  }
+}
+.pagination .page-link svg {
+  fill: $white;
+  * {
+    fill: $white;
+  }
+}
+.fabrx-like svg {
+  fill: $secondary;
+  * {
+    fill: $secondary;
+  }
+}
+/* 1. 1. 7. Fabrx Inputs CSS */
+.control-icon.btn-light {
+  background-color: $dark-600;
+  border-color: $dark-600;
+}
+/* 1. 2. Fabrx Box Shadow CSS */
+.shadow-40 {
+  box-shadow: none;
+}
+/* 1. 3. Fabrx Alert CSS */
+.alert-light, .fabrx-chip:not([class*="fabrx-outline-"]) {
+  background-color: $dark-light;
+  border-color: $dark-light;
+}
+.fabrx-outline-primary {
+  background-color: $transparent;
+}
+/* 1. 4. Fabrx Buttons CSS */
+.btn-group .btn-light:not(:hover), .btn-group-vertical .btn-light:not(:hover) {
+  border-color: $dark-800;
+}
+.btn-group, .btn-group-vertical {
+  box-shadow: 0 0 0 1px $dark-light;
+}
+/* 1. 5. Fabrx Dropdown CSS */
+.dropdown-item:not(.active) {
+  &:focus, &:hover {
+    background-color: $dark-700;
+    color: $white;
+  }
+}
+/* 1. 6. Fabrx Uploader CSS */
+.fileuploader-input {
+  background-color: $dark-link;
+  border-color: $gray-dark-600;
+  .fileuploader-input-caption:before {
+    background-image: url(../images/files-2.svg);
+  }
+}
+/* 2. 1. Fabrx Dark Aside CSS */
+.fabrx-aside-header, .fabrx-hero, .card, .item-boxes .nav-link, .media, .list-group-item, .btn-group .btn-light, .btn-group-vertical .btn-light, .fabrx-chip, .flatpickr-calendar, .dropdown-menu {
+  background-color: $dark-light;
+}
+.custom-switch {
+  .custom-control-label:before {
+    background-color: $dark-light;
+  }
+  .custom-control-input {
+    &:disabled ~ .custom-control-label:before, &[disabled] ~ .custom-control-label:before {
+      background-color: $dark-light;
+    }
+  }
+}
+.form-control {
+  &:disabled, &[readonly] {
+    background-color: $dark-light;
+  }
+}
+.table td {
+  background-color: $dark-light;
+}
+.fabrx-tables-light table tbody tr {
+  &.active td, &:hover td {
+    background-color: $dark-light;
+  }
+}
+.table-striped tbody tr:nth-of-type(even) td, .nav-tabs, .btn-group .btn-light:hover, .btn-group-vertical .btn-light:hover {
+  background-color: $dark-light;
+}
+.menu-category > li > a, .fabrx-aside-two .menu-category > li > a {
+  border-color: $dark-100;
+}
+/* 2. 2. Fabrx Masonry CSS */
+.masonry-item .card, .fabrx-tables-light .pagination .page-link, .pagination .page-link {
+  background-color: $transparent;
+}
+/* 2. 3. Fabrx Nav Tabs line CSS */
+.nav-tabs.nav-tags-stack .nav-link, .pagination .page-link, .page-link.primary-page-item {
+  border-color: $dark;
+}
+.fabrix-custom-pagination {
+  border-color: $dark;
+  .custom-select, .form-control {
+    border-color: $dark;
+  }
+}
+.has-vertical-line:after {
+  background-color: $dark !important;
+}
+/* 2. 4. Fabrx Forms CSS */
+/* 2. 4. 1. Fabrx Custom Control CSS */
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label:after {
+  box-shadow: 0 0 0 3px $dark-light inset;
+}
+.dayContainer + .dayContainer {
+  -webkit-box-shadow: -1px 0 0 $dark;
+  box-shadow: -1px 0 0 $dark;
+}
+/* 2. 5. Fabrx Pagination CSS */
+/* 2. 5. 1. Fabrx Custom Pagination CSS */
+.fabrix-custom-pagination .custom-select {
+  color: #fff;
+  option {
+    color: $black;
+  }
+}
+/* 3. Fabrx Tables Light CSS */
+.fabrx-tables-light {
+  table {
+    tbody tr td {
+      background-color: $dark-100;
+    }
+    thead tr th {
+      border-color: $transparent;
+    }
+  }
+  .btn-outline-primary {
+    border-color: $white;
+  }
+}
+.sticky-wrapper.is-sticky .fabrx-sticky {
+  background-color: $black-900;
+}

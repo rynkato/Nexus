@@ -1,0 +1,12 @@
+<svg id="Emoji_04" data-name="Emoji 04" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient x1="0.584" x2="0.439" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9c172"/>
+      <stop offset="1" stop-color="#f9d572"/>
+    </linearGradient>
+  </defs>
+  <g data-name="Rating/Emojis/Single/State/Inactive">
+    <circle cx="16" cy="16" r="16" fill="url(#linear-gradient)"/>
+  </g>
+  <path data-name="Fill Color" d="M9.547,9.58a8.281,8.281,0,0,0-8.182,3L0,11.522a9.944,9.944,0,0,1,15.713,0l-1.366,1.062A8.218,8.218,0,0,0,9.547,9.58ZM11.5,1.73a1.729,1.729,0,1,1,1.729,1.73A1.729,1.729,0,0,1,11.5,1.73Zm-10.7,0a1.73,1.73,0,1,1,1.73,1.73A1.729,1.729,0,0,1,.794,1.73Z" transform="translate(8.143 10.702)" fill="#121212"/>
+</svg>
